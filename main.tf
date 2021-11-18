@@ -14,11 +14,15 @@ terraform {
   backend "remote" {
     organization = "awsteam"
 
-    workspaces {
+  workspaces {
       name = "gh-actions-demo1"
     }
+ 
+
   }
 }
+
+
 
 
 provider "aws" {
