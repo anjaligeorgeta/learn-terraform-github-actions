@@ -31,6 +31,7 @@ provider "aws" {
 
 
 
+
 resource "random_pet" "sg" {}
 
 resource "aws_instance" "web" {
